@@ -1,0 +1,174 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box ;
+    font-family: "Playfair Display", serif;
+}
+nav img{
+    width: 100px;
+    
+}
+ .nav-link.active{
+ color: #a75e30 !important;
+ 
+}
+.hero{
+    height: calc(100vh - 58px);
+    margin-top: 58px;
+   
+
+}
+.hero-icon{
+    width: 40px;
+    height: 40px;
+}
+.my-flex{
+    height: 100%;
+}
+.hero img{
+    width: 200px!important;
+}
+
+.my-caption{
+    width: 200px;
+}
+.my-caption h2 , .my-caption2 h2{
+    font-size: 40px;
+}
+
+.sec-2 , .sec-3{
+    background-color: #eae7df!important;
+}
+.hero .btn{
+    border: 1px solid #a75e30!important;
+    color: #a75e30;
+}
+.cardo img{
+    width:200px;
+}
+.sec-3 img{
+    width:200px;
+}
+.cardo h2{
+    font-size: 20px;
+    color: #a75e30;   
+}
+.cardo h3{
+    font-size: 15px;
+}
+.MyBtn button{
+    background-color: white;
+    
+}
+.bord{
+    border-bottom: 1px solid #a75e30;
+    width:40px;
+   
+}
+.my-sec button{
+    background-color: #eae7df;
+}
+.title{
+   width: 300px;
+}
+.root{
+   
+ border-bottom: 1px solid #eae7df;
+}
+.title-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-text::after,
+.title-text::before
+{
+    content: "";
+    display: flex;
+    width: 35%;
+    height: 1px;
+    background-color: #eae7df;
+    margin: 0 20px;
+
+}
+.nav-link.active{
+    background-color: white!important;
+    font-weight: bold;
+    color: black !important;
+    border-radius: 0;
+    border-bottom: 1px solid #a75e30!important;
+}
+.subs-1 .line{
+    width: 40px;
+    border-bottom:3px solid #a75e30!important;
+    
+}
+.sec-4{
+    background-color:#eae7df;
+}
+.subs-1{
+    width: 250px;
+}
+.subs-2{
+    width:300px;
+}
+.sec-2 img{
+    width:100px;
+}
+.sec-4 .input-group input{
+    background-color:#eae7df;
+    border:1px solid #eae7df;
+}
+.sec-4 .input-group .btn{
+    font-weight: bold;
+}
+footer img{
+    width: 150px;
+}
+footer .div-1{
+    width: 300px;
+}
+footer .div-2 span{
+    color: #a75e30;
+}
+footer hr{
+    color:#eae7df!important;
+    
+}
+footer .icons{
+    width:100px;
+}
+@media( max-width : 785px ){
+    .sec-end{
+        position: relative;
+    }
+    footer .icons{
+        position: absolute;
+        top: 90%;
+        right: 0;
+    }
+}
+@media( min-width : 489px){
+    .my-btn{
+        display: none;
+    }
+}
+
+@media( max-width :464px){
+    .hero{
+        margin: 100px;
+    }
+    .my-caption2{
+       width: 200px;
+    display: inline!important;
+    }
+    .my-caption{
+        display: none;
+    }
+}
+@media( max-width :489px){
+    .res-btn{
+    display: block!important;
+    }
+    
+}
